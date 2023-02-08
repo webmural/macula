@@ -1,0 +1,25 @@
+::selection {
+  background: thistle;
+  color: darkmagenta;
+}
+
+:any-link {
+  color: lavender;
+}
+
+body {
+  background: darkmagenta;
+  color: thistle;
+  transition: 30ms;
+}
+
+mark {
+  background: magenta;
+  color: #330330;
+}
+
+@media (prefers-contrast: more) {
+  :root {
+    background: #330330;
+  }
+}

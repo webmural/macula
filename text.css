@@ -1,0 +1,40 @@
+:root {
+  font-family: sans-serif;
+  font-size: calc(1em + 2vmin + 3vmax);
+}
+
+:any-link {
+  font-size: max(1em, 44px);
+}
+
+:focus {
+  outline-color: currentColor;
+  outline-style: dashed;
+  outline-width: thick;
+}
+
+body {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 1ex;
+}
+
+nav {
+  margin: auto;
+  padding-block-end: 1rem;
+}
+
+data {
+  font-weight: 800;
+}
+
+hr {
+  border: 0;
+  border-top: thick dotted magenta;
+}
+
+header {
+  box-sizing: border-box;
+  font-size: 2em;
+  font-weight: bold;
+}
